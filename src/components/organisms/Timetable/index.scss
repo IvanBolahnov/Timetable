@@ -1,0 +1,24 @@
+.timetable__wrapper {
+	padding: 10px;
+	border: 1px solid #000;
+	margin: 20px;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.timetable {
+	width: 100%;
+	border-collapse: collapse;
+
+	th {
+		font-size: 18px;
+	}
+
+	td {
+		padding: 5px;
+	}
+
+	.timetable__line-end-time {
+		border-left: 1px solid #000;
+	}
+}
